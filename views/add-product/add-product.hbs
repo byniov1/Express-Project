@@ -1,0 +1,28 @@
+<h2>Here you can add more products to the list</h2>
+
+
+<div class = "form-add-product">
+    <form action="/add-product" method="POST" encType="multipart/form-data">
+        <label class = "form-add-product__label">
+            <input type="text" name="name" placeholder = "Name" class = "form-add-product__input">
+        </label>
+        <label class = "form-add-product__label">
+            <input type="number" name="value" placeholder="Value" class = "form-add-product__input">
+        </label>
+        <label class = "form-add-product__label">
+            <input type="text" name="city" placeholder="City" class = "form-add-product__input">
+        </label>
+        <label class = "form-add-product__label">
+            <input type="text" name="description" placeholder="Description" class = "form-add-product__input">
+        </label>
+        <label class = "form-add-product__label">
+            Upload photos
+            <input type="file" name="image" accept="image/*" class = "form-add-product__input">
+        </label>
+        <button class = "form-add-product__button">Add Product</button>
+    </form>
+</div>
+
+<div class = "return-to-home">
+    <a href="/">Return to home page</a>
+</div>

@@ -1,0 +1,17 @@
+<h3 class = "home__title">List of products available</h3>
+
+<div class = "products">
+    {{#each products}}
+        <div class = "products__single">
+            {{#if this.image}}
+                <img class = "card__image" alt="image" src="{{this.image}}" >
+            {{else}}
+                <img class = "card__image" src="/img/default.jpg" alt="image">
+            {{/if}}
+            <p><strong> {{this.name}}</strong></p>
+            <p>{{this.city}}</p>
+            <p>{{this.value}}</p>
+            <p>{{this.description}}</p>
+        </div>
+    {{/each}}
+</div>
