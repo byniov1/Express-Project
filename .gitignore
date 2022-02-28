@@ -2,6 +2,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/webstorm,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=webstorm,node
 
+#package.lock.json
+package-lock.json
+.idea
 ### Node ###
 # Logs
 logs
